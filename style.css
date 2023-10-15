@@ -1,0 +1,111 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: black;
+}
+#AllPage{
+    height: 90%;
+}
+#Head{
+    margin-top: 20px;
+    height: 5%;
+    position: fixed;
+}
+#Head a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px 35px;
+
+}
+#body{
+    height: 90%;
+    
+}
+#MainContent{
+    height: 100%;
+    color: wheat;
+}
+#Review a{
+    color: rgb(0, 238, 255);
+    text-decoration: none;
+}
+#NameGame{
+    text-align: center;
+}
+#Banner{
+    background-size: 100% 100%;
+    background-image: url(https://upload-os-bbs.hoyolab.com/upload/2022/11/26/287821439/f233a759a8d876c48cffa0f55183a88a_1882438965213475238.jpeg?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 80%;
+}
+#Review{
+    margin-left: 10px;
+}
+#GamePlay{
+    margin-top: 50px;
+    text-decoration: underline;
+}
+#News_border{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+#News{
+    border-radius: 10px;
+    padding: 25px 50px;
+    margin-top: 20px;
+    color: wheat;
+    border: 1.5px solid white;
+    width: 60%;
+}
+#UpdatPhoto img{
+    height: 343px;
+    width: 800px;
+}
+#UpdatFeature{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#UpdatFeature a{
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+#end{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    
+}
+#Logo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#contact{
+    justify-content: space-around;
+    display: flex;
+    background-color: white;
+    height: 100%;
+    
+    width: 80%;
+}
+#src{
+    display: flex;
+}
+#interview{
+    color: rgb(243, 16, 9);
+    text-align: center;
+
+}
+#mainvideo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
